@@ -34,7 +34,15 @@ public class Main {
         System.out.println("Rank & Eligibility: " + rankAndEligibility);
         System.out.println();
 
-        System.out.println("\n4.--- Hero Eligibility Checker ---");
+        System.out.println("\n4.--- Guild Gatekeeper ---");
+        System.out.println("Knight -> " + GuildGatekeeper.determineAccess("Knight"));
+        System.out.println("mage -> " + GuildGatekeeper.determineAccess("mage"));
+        System.out.println("Me -> " + GuildGatekeeper.determineAccess("me"));
+
+
+
+
+
         // TODO: Start Hero Dashboard or individual module tests
     }
 }
