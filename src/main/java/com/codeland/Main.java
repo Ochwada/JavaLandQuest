@@ -34,7 +34,7 @@ public class Main {
         System.out.println("Rank & Eligibility: " + rankAndEligibility);
         System.out.println();
 
-        System.out.println("\n--- Hero Eligibility Checker ---");
+        System.out.println("\n4.--- Hero Eligibility Checker ---");
         // TODO: Start Hero Dashboard or individual module tests
     }
 }

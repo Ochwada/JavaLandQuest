@@ -10,8 +10,8 @@ public class HeroEligibilityChecker {
      * Eligibility validate method
      * Only heroes older than 18 and stronger than 70 can join the Guild.
      *
-     * @param age      : age of the guild candidate.
-     * @param strength : strength of the guild candidate.
+     * @param age      : age of the hero.
+     * @param strength : strength of the hero.
      */
     public static boolean isEligibility(int age, int strength) {
         // Must be older than 18 and stronger than 70 can join the Guild
@@ -29,7 +29,14 @@ public class HeroEligibilityChecker {
         return (experience >= 80) ? "Warrior" : "Apprentice";
 
     }
-
+    /**
+     * (Overload function) Returns the hero rank based on experience.
+     *
+     * @param experience : Hero`s experience level
+     * @param age : age of the hero.
+     * @param strength : strength of the hero.
+     * @return "Warrior" if experience is equal or more than 80 points, otherwise "Apprentice"
+     */
     public static String getRank(int experience, int age, int strength){
         String rank =  (experience >= 80) ? "Warrior" : "Apprentice";
         boolean eligibility = isEligibility(age, strength);
