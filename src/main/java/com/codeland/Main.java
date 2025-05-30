@@ -6,6 +6,9 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome to JavaLand: The Code Chronicles!");
 
+        System.out.println("\n6.--- Dungeon Simulator ---");
+        DungeonSimulator.collectedGold();
+
         System.out.println("\n5.--- Day Scheduler ---");
         //Scanner scanner = new Scanner(System.in);
         //System.out.println("Enter Day Number: ");
