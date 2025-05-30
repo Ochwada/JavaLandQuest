@@ -11,6 +11,14 @@ public class Main {
         System.out.println("Total Ingredients Cost: " + PotionCalculator.totalCostOfIngredients(totalUnit));
 
 
+        System.out.println("\n--- Spell Cost Estimator ---");
+        System.out.println(SpellCostEstimator.getSpellSummary("Genjustu", 6));
+        System.out.println(SpellCostEstimator.getSpellSummary("Ninjutsu", 4));
+        System.out.println(SpellCostEstimator.getSpellSummary("Taijutsu", 2));
+        System.out.println(SpellCostEstimator.getSpellSummary("Wolf-Feng-Over-Feng", 2));
+        System.out.println();
+
+
         // TODO: Start Hero Dashboard or individual module tests
     }
 }
