@@ -30,9 +30,10 @@ public class PotionCalculator {
      * Calculates the total cost of ingredients in wizard coins
      *
      * @param totalUnits : The number of ingredient units the wizard has.
+     * @return total cost of ingredients in wizard coins
      */
 
-    public static void totalCostOfIngredients(int totalUnits) {
-        System.out.println("\uD83E\uDDD9\u200D♂\uFE0F" + totalUnits * PRICE_PER_UNIT + "\uD83D\uDCB0 (Wizard Coins)");
+    public static double totalCostOfIngredients(int totalUnits) {
+        return totalUnits * PRICE_PER_UNIT;
     }
 }

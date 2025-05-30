@@ -27,5 +27,23 @@ class PotionCalculatorTest {
     // -----------------------------------------------------
     // TESTS
     // -----------------------------------------------------
+    @Test
+    @DisplayName("Test - Full Potions Made")
+    public void TestFullPotionsMade(){
+        assertEquals(2, PotionCalculator.fullPotionsMade(14));
+        assertEquals(4, PotionCalculator.fullPotionsMade(28));
+    }
+    @Test
+    @DisplayName("Test - Leftover Units")
+    public void TestLeftoverUnits(){
+        assertEquals(1, PotionCalculator.leftOverUnits(15));
+        assertEquals(2, PotionCalculator.leftOverUnits(30));
+    }
+    @Test
+    @DisplayName("Test - Total Cost of Ingredients")
+    public void TestTotalCostOfIngredients(){
+        assertEquals(24.95, PotionCalculator.totalCostOfIngredients(5), 0.0001);
+        assertEquals(49.90, PotionCalculator.totalCostOfIngredients(10), 0.0001);
+    }
 
 }
