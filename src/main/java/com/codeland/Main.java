@@ -1,13 +1,34 @@
 package com.codeland;
 
+import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome to JavaLand: The Code Chronicles!");
 
+
+        /*System.out.println("\n7.--- Magic Inventory ---");
+        // Item box
+        MagicInventory.addItem("Sword");
+        MagicInventory.addItem("Shield");
+        MagicInventory.addItem("Potion");
+        MagicInventory.displayItemList();
+        // Potion box
+        MagicInventory.addPotion("Mana");
+        MagicInventory.addPotion("Healing");
+        MagicInventory.addPotion("Strength");
+        MagicInventory.displayPotionTypes();
+        // Items & Quantity
+        MagicInventory.addItemAndQuantity("Sword", 2);
+        MagicInventory.addItemAndQuantity("Shield", 1);
+        MagicInventory.addItemAndQuantity("Potion", 5);
+        MagicInventory.displayItemAndQuantity();*/
+
+        /*
         System.out.println("\n6.--- Dungeon Simulator ---");
         DungeonSimulator.collectedGold();
+        */
 
         /*
         System.out.println("\n5.--- Day Scheduler ---");
@@ -26,7 +47,6 @@ public class Main {
         System.out.println();
          */
 
-
         /*
         System.out.println("\n3.--- Hero Eligibility Checker ---");
         int age = 20;
@@ -43,7 +63,6 @@ public class Main {
         System.out.println("Rank & Eligibility: " + rankAndEligibility);
         System.out.println();
         */
-
 
         /*
         System.out.println("\n2.--- Spell Cost Estimator ---");
