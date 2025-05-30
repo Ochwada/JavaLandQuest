@@ -45,7 +45,7 @@ public class DungeonSimulator {
         // ---------------------------------
         // Loop 3: Try to open a chest (max 3 tries)
         // ---------------------------------
-        System.out.println("\n Trying to open a locked chest...");
+        System.out.println("Trying to open a locked chest...");
 
         // Tracks the number of attempts to open the chest
         int attempt = 0;
