@@ -1,14 +1,5 @@
 package com.codeland;
 
-/**
- * SpellCostEstimator.java – 🔧 Functions & Return Values
- * Story: Spell mana cost depends on the spell name and power level.
- * <p>
- * Task:
- * <p>
- * Create a method int calculateManaCost(String spellName, int powerLevel).
- * Add another method to return a spell summary string.
- */
 public class SpellCostEstimator {
     /**
      * Calculates the coast of a spell based oon its name and power level.
@@ -54,6 +45,12 @@ public class SpellCostEstimator {
      */
     public static String getSpellSummary(String spellName, int powerLevel) {
         int manaCost = calculateManaCost(spellName, powerLevel);
-        return String.format("Spell: %s | Power Level: %d | Mana Cost: %d", spellName, powerLevel, manaCost);
+        
+        return String.format(
+                "Spell: %s | Power Level: %d | Mana Cost: %d",
+                spellName,
+                powerLevel,
+                manaCost
+        );
     }
 }
