@@ -13,6 +13,8 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>17</maven.compiler.source>   <!-- or 11/21 (ADDED)-->
+        <maven.compiler.target>17</maven.compiler.target>   <!--  (ADDED)-->
     </properties>
 
     <dependencies>
@@ -33,6 +35,16 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.1.2</version>
             </plugin>
+            <!-- Plugin used to execute Java classes with a main() -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <mainClass>com.codeland.Main</mainClass>
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
 </project>
