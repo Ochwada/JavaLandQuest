@@ -1,7 +1,7 @@
 
 # 🧙‍♂️ JavaLand: The Code Chronicles
 
-Welcome to **JavaLand: The Code Chronicles**, a story-driven Java exercise series designed to make core Java concepts fun and practical. This README walks you through each task with context and instructions.
+Welcome to **JavaLand: The Code Chronicles**, a story-driven Java exercise series designed to make core Java concepts fun and practical. This Task.md walks you through each task with context and instructions.
 
 ---
 
