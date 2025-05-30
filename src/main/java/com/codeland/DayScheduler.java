@@ -29,5 +29,4 @@ public class DayScheduler {
             default -> {return "Enter a valid day number (1-7)";}
         }
     }
-    // TODO: Implement switch-case to return activity by day
 }
