@@ -33,6 +33,6 @@ public class PotionCalculator {
      */
 
     public static void totalCostOfIngredients(int totalUnits) {
-        System.out.println(totalUnits * PRICE_PER_UNIT + "\uD83E\uDDD9\u200D♂\uFE0F\uD83D\uDCB0 (Wizard Coins)");
+        System.out.println("\uD83E\uDDD9\u200D♂\uFE0F" + totalUnits * PRICE_PER_UNIT + "\uD83D\uDCB0 (Wizard Coins)");
     }
 }
