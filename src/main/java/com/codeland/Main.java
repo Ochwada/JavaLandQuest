@@ -1,13 +1,33 @@
 package com.codeland;
 
 
+import com.codeland.exceptions.BoxEmptyException;
+
 import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome to JavaLand: The Code Chronicles!");
 
-        System.out.println("\n9.--- Creature & Attacks ---");
+        System.out.println("\n9.--- Magic Box ---");
+        HeroDashboard.MagicBox<String> spellBox = new HeroDashboard.MagicBox<>();
+
+        try {
+            System.out.println("Try to open the box ...");
+            System.out.println("Item: " + spellBox.get());
+        } catch (BoxEmptyException e) {
+            System.out.println(e.getMessage());
+        }
+        spellBox.set("Invisibility Cloak");
+        spellBox.set("Sword Enchanter");
+
+        try{
+            System.out.println("\nTry again opening the box ...");
+            System.out.println("Item: " + spellBox.get());
+        }catch (BoxEmptyException e){
+            System.out.println(e.getMessage());
+        }
+
         /*
         System.out.println("\n8.--- Creature & Attacks ---");
         List<Creature> creatures = new ArrayList<>();

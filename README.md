@@ -18,4 +18,5 @@ You are a junior developer in **CodeVerse Corp**, tasked with building magical s
 5. `DayScheduler.java`
 6. `DungeonSimulator.java`
 7. `MagicInventory.java`
+8. `Creature.java`, `Dragon.java`, `Goblin.java`, `Wizard.java`
 
