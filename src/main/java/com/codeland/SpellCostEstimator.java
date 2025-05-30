@@ -45,7 +45,7 @@ public class SpellCostEstimator {
      */
     public static String getSpellSummary(String spellName, int powerLevel) {
         int manaCost = calculateManaCost(spellName, powerLevel);
-        
+
         return String.format(
                 "Spell: %s | Power Level: %d | Mana Cost: %d",
                 spellName,
