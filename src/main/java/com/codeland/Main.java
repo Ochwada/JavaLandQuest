@@ -1,14 +1,30 @@
 package com.codeland;
 
-import java.util.Map;
-import java.util.Scanner;
+
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome to JavaLand: The Code Chronicles!");
 
+        System.out.println("\n9.--- Creature & Attacks ---");
+        /*
+        System.out.println("\n8.--- Creature & Attacks ---");
+        List<Creature> creatures = new ArrayList<>();
+        creatures.add(new Goblin("Rigur"));
+        creatures.add(new Goblin("Gobchi"));
+        creatures.add(new Dragon("Gabiru"));
+        creatures.add(new Wizard("Gelmud"));
+        creatures.add(new Wizard("Treyni"));
 
-        /*System.out.println("\n7.--- Magic Inventory ---");
+        System.out.println("Creatures of Javaland - aaatttack!");
+        for (Creature creature : creatures){
+            creature.attack();
+        }
+        */
+
+        /*
+        System.out.println("\n7.--- Magic Inventory ---");
         // Item box
         MagicInventory.addItem("Sword");
         MagicInventory.addItem("Shield");
@@ -23,7 +39,8 @@ public class Main {
         MagicInventory.addItemAndQuantity("Sword", 2);
         MagicInventory.addItemAndQuantity("Shield", 1);
         MagicInventory.addItemAndQuantity("Potion", 5);
-        MagicInventory.displayItemAndQuantity();*/
+        MagicInventory.displayItemAndQuantity();
+        */
 
         /*
         System.out.println("\n6.--- Dungeon Simulator ---");
